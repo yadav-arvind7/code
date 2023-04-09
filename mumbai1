@@ -1,7 +1,6 @@
 #/bin/bash
-systemctl status auditd
-if [ $? -eq 0 ]; then
-echo "audit running"
+ping -c 2 google.com
+echo "server is up"
 else 
-echo "audit not running"
+echo "server is down"
 fi
