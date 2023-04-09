@@ -1,0 +1,6 @@
+#/bin/bash
+if -q  /etc/redhat
+echo ("redhat server")
+else
+echo "not a redhat server"
+fi
