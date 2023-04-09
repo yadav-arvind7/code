@@ -7,3 +7,4 @@ echo "server is up: $i"]
 else 
 echo "server is down : $i"
 fi
+#ping Status & os-version
