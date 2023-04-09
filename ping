@@ -1,0 +1,7 @@
+#/bin/bash
+ping -c 2 google.com
+if [ $? -eq 0 ]
+echo "server is up"
+else
+echo "server is down"
+fi
