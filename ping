@@ -1,7 +1,9 @@
 #/bin/bash
-ping -c 2 google.com
-if [ $? -eq 0 ]
-echo "server is up"
-else
-echo "server is down"
+for i cat server.txt
+ping -c 2 $i
+if [ $? -eq 0 ];
+then
+echo "server is up: $i"]
+else 
+echo "server is down : $i"
 fi
